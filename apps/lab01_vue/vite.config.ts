@@ -21,7 +21,7 @@ export default defineConfig({
     environment: 'jsdom'
   },
   build: {
-    outDir: path.resolve(__dirname, '../../docs/lab01_vue'),
+    outDir: path.resolve(__dirname, '../../docs/MobileWeb/lab01_vue'),
     emptyOutDir: true
   }
 

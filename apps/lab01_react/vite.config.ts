@@ -12,7 +12,7 @@ export default defineConfig({
     legacy()
   ],
   build: {
-    outDir: path.resolve(__dirname, '../../docs/lab01_react'),
+    outDir: path.resolve(__dirname, '../../docs/MobileWeb/lab01_react'),
     emptyOutDir: true
   },
   test: {
