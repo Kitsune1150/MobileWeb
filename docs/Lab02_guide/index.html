@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KKU campus guide</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="logo">
+            <span>KKU campus guide</span>
+        </div>
+
+        <nav>
+            <a href="#">หน้าแรก</a>
+            <a href="#">สถานที่สำคัญ</a>
+            <a href="#">กิจกรรมประจำปี</a>
+            <a href="#">วิธีการเดินทาง</a>
+            <a href="#">แผนที่</a>
+        </nav>
+    </header>
+
+    <!-- BANNER -->
+    <section class="banner">
+        <div class="banner-text">
+            <h2>กิจกรรมประจำเดือนนี้มาแล้ว "แปลงกังหัน" เริ่มแล้วน้าาา</h2>
+            <p>
+                สถานที่ฮิตของเหล่านักศึกษาและนักท่องเที่ยว มาชมทุ่งดอกไม้สีสันสวยงาม...
+            </p>
+            <button>พร้อมแล้วไปดูกัน</button>
+        </div>
+
+        <div class="banner-img">
+            <img src="images/plang1.jpg" alt="">
+        </div>
+    </section>
+
+    <!-- SHORT SECTIONS -->
+    <section class="quick-box">
+        <div class="card">
+            <h3>สถานที่ห้ามพลาด</h3>
+            <ul>
+                <li>เรือนพญาคันคาก</li>
+                <li>สวนดอกไม้</li>
+                <li>พิพิธภัณฑ์ มข.</li>
+                <li>แปลงกังหัน</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>สถานที่ไฮไลต์</h3>
+            <div class="card-img-row">
+                <img src="images/h1.jpg">
+                <img src="images/h2.jpg">
+                <img src="images/plang3.jpg">
+            </div>
+        </div>
+    </section>
+
+    <!-- RECOMMEND -->
+    <h2 class="section-title">สถานที่แนะนำ</h2>
+
+    <!-- PLACE 1 -->
+    <section class="place-block">
+        <h3>1. แปลงกังหัน</h3>
+        <p>
+            แหล่งเช็กอินยอดฮิตของนักศึกษาและนักท่องเที่ยว...
+        </p>
+
+        <div class="img-row">
+            <img src="images/plang1.jpg">
+            <img src="images/plang2.jpg">
+            <img src="images/plang3.jpg">
+        </div>
+    </section>
+
+    <!-- PLACE 2 -->
+    <section class="place-block">
+        <h3>2. อุทยานเกษตร</h3>
+        <p>เป็นสถานที่พักผ่อนและออกกำลังกายยอดนิยมในขอนแก่น</p>
+
+        <div class="img-row">
+            <img src="images/gased1.jpg">
+            <img src="images/gased2.jpg">
+            <img src="images/gased3.jpg">
+        </div>
+    </section>
+
+    <!-- PLACE 3 -->
+    <section class="place-block">
+        <h3>3. บึงศรีฐาน</h3>
+        <p>เป็นสถานที่พักผ่อนหย่อนใจและออกกำลังกายที่เป็นศูนย์กลางของมหาวิทยาลัยขอนแก่น</p>
+
+        <div class="img-row">
+            <img src="images/bueng2.jpg">
+            <img src="images/bueng1.jpg">
+            <img src="images/bueng3.jpg">
+        </div>
+    </section>
+
+    <!-- PLACE 4 -->
+    <section class="place-block">
+        <h3>4. หอศิลปวัฒนธรรม มข.</h3>
+        <p>แกลอรี่งานศิลปะ...</p>
+
+        <div class="img-row">
+            <img src="images/hoo1.jpg">
+            <img src="images/hoo2.jpg">
+            <img src="images/hoo3.jpg">
+        </div>
+    </section>
+
+    <!-- FORM -->
+    <section class="form-box">
+        <h2>แนะนำสถานที่เพิ่มเติม</h2>
+
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="8ad4426d-42bf-4ae4-8350-7444104db6fe">
+            <label>ชื่อสถานที่</label>
+            <input type="text" name="name" required placeholder="กรอกชื่อสถานที่">
+
+            <label>รายละเอียด</label>
+            <textarea name="message" required placeholder="อธิบายสถานที่"></textarea>
+
+            <label>URL รูปภาพ</label>
+            <input type="text" name="URL" required placeholder="วาง URL ของภาพ">
+
+            <button class="submit">ส่งข้อมูล</button>
+        </form>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        6733800207-2 นายจิรภัทร โตรักษา
+    </footer>
+
+</body>
+</html>
